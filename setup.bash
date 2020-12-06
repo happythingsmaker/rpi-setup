@@ -1,8 +1,10 @@
 #!/bin/bash
+git config --global user.email "freetime4y@gmail.com"
+git config --global user.name "Eunchan Park"
 
-#install 
+#install
 sudo apt update
-sudo apt install -y openssh-server x11vnc
+sudo apt install -y openssh-server x11vnc xserver-xorg-video-dummy
 
 
 #ros
