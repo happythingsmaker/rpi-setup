@@ -1,0 +1,4 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", ATTRS{devpath}=="1.5", MODE="666", SYMLINK+="ttyVESC_LEFT"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", ATTRS{devpath}=="1.4", MODE="666", SYMLINK+="ttyVESC_RIGHT"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1b4f", ATTRS{product}=="SFE 9DOF-D21", MODE="666", SYMLINK+="ttyIMU"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", MODE="666", SYMLINK+="ttyLidar"

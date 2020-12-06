@@ -1,6 +1,12 @@
 #!/bin/bash
+
+#git
 git config --global user.email "freetime4y@gmail.com"
 git config --global user.name "Eunchan Park"
+
+#udev rule
+sudo bash -c "cp ./11-usb-serial.rules /etc/udev/rules.d/"
+
 
 #install
 sudo apt update
