@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+(sleep 5 ; \
+sudo -H -u chans -i bash -c \
+"source /home/chans/.bashrc ; source /home/chans/catkin_ws/devel/setup.bash; roslaunch vesc_turtle_bringup vesc_turtle_bringup.launch" ) &
